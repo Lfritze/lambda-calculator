@@ -20,5 +20,56 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  .logo {
+      margin: 20px;
+  }
 
-
+  .display-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .operation-container {
+    display: flex;
+  }
+  
+  .left {
+    width: 65%;
+    margin: 6% 0 0 15%;
+  }
+  
+  .right {
+    width: 35%;
+    margin: 6% 8% 0 0;
+  }
+  
+  .specials {
+    width: 90%;
+    margin-left: 10%;
+  }
+  
+  .numbers {
+    width: 90%;
+    margin-left: 10%;
+  }
+  
+  .operators {
+    width: 20%;
+    /* margin-right: 0; */
+  }
+  
+  .button {
+    border: 1px solid black;
+    color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: #184379;;
+    font-size: 2rem;
+  }
+  
+  .button:nth-child(10) {
+    width: 60%;
+    border-radius: 30%;
+  }
