@@ -1,9 +1,11 @@
 import React from "react";
 
-const Display = () => {
+// NOTE: the hard coded '0' below is just for show
+
+const Display = props => {
   return (
   <div className="display">
-    {props.calculatorScreen};
+    {props.calculatorScreen}0
   </div>
   )
 };
@@ -11,4 +13,4 @@ const Display = () => {
 export default Display;
 
 
-{/* Display any props data here */}
+/* Display any props data here */

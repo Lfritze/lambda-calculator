@@ -6,6 +6,8 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+/* *************************Display.js**************************** */
 .display {
     margin-top: 25px;
     height: 100px;
@@ -20,3 +22,39 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+/* *******************App.js************** */
+  .logo {
+      margin: 07%;
+  }
+
+  .display-container {
+      width: 90%;
+      margin-left: 5%;
+  }
+
+  .operation-container {
+      display: flex;
+  }
+
+  .left {
+      width: 65%;
+      margin: 6% 0 0 15%;
+  }
+
+  .right {
+      width: 35%;
+      margin: 6% 8% 0 0;
+  }
+
+/* ****************Specials.js******************** */
+
+/* .specials */
+
+/* ********************Numbers.js********************** */
+
+/* .numbers  */
+
+/* ********************Operators.js********************** */
+
+/* ****Buttons from Specials, Numbers, Operators*** */
