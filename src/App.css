@@ -1,17 +1,18 @@
 .container {
     background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
+    /* width: 60%; */
+    max-width: 30%;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding-bottom: 2%;
+    border: 3px solid blue;
 }
 
 /* *************************Display.js**************************** */
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    margin: 0 auto;
+    height: 90px;
+    width: 60%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -49,12 +50,64 @@
 
 /* ****************Specials.js******************** */
 
-/* .specials */
+.specials {
+    width: 90%;
+    margin-left: 10%;
+}
 
 /* ********************Numbers.js********************** */
 
-/* .numbers  */
+.numbers {
+    width: 90%;
+    margin-left: 10%;
+}
 
 /* ********************Operators.js********************** */
 
-/* ****Buttons from Specials, Numbers, Operators*** */
+.operators {
+    width: 20%;
+}
+
+/* ****Buttons from Numbers, Specials,  Operators*** */
+
+.numberButton {
+    border: 1px solid black;
+    color: white;
+    background-color: #184379;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 2%;
+    font-size: 2rem;
+}
+
+/* This makes the '0' number button larger */
+.numberButton:nth-child(10) {
+    width: 60%;
+    border-radius: 31px;
+}
+
+.specialButton {
+    border: 1px solid black;
+    color: white;
+    background-color: #225d9e;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 2%;
+    font-size: 2rem;
+}
+
+.operatorsButton {
+    border: 1px solid black;
+    color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 17%;
+    background-color:#237293;
+    font-size: 2rem;
+}
+
+
+

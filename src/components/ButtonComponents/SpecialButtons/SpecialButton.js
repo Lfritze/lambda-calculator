@@ -2,7 +2,7 @@ import React from "react";
 
 const SpecialButton = props => {
   return (
-    <button>
+    <button className = 'specialButton'>
       {props.specialData}
     </button>
   );
