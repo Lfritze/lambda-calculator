@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { numbers } from '../../../data';
-import NumberButton from 'NumberButton'; 
+import NumberButton from './NumberButton'; 
 
 //import any components needed
 
@@ -12,8 +12,8 @@ const Numbers = () => {
   
   return (
     <div className = 'numbers' >
-      {data.map((data, index) => (
-          <NumberButton key ={index} numberData={data} />
+      {data.map((element, index) => (
+          <NumberButton key ={index} numberData={element} />
         ))} 
     </div>
   );
