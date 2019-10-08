@@ -8,15 +8,17 @@ const NumberButton = (props) => {
     else 
       return props.setDisplayResult(props.number);
   }
+
   if (props.number !== '0') {
   return (
     <button className = 'button-number' onClick = {() => updateValue()}>
       {props.number}
     </button>
   );}
+
   else {
     return (
-      <button className = 'number-zero-button' onCLick = {() => updateValue()}>
+      <button className = 'number-zero-button' onClick = {() => updateValue()}>
         {props.number}
       </button>
     );
