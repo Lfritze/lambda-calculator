@@ -3,7 +3,7 @@ import React from "react";
 const NumberButton = (props) => {
 
   function updateValue() {
-    if (props.displayResult != '0') 
+    if (props.displayResult !== '0') 
       return props.setDisplayResult(props.displayResult +props.number);
     else 
       return props.setDisplayResult(props.number);
